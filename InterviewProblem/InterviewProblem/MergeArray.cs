@@ -30,7 +30,6 @@
                 elementIndex++;
             }
             return mergedElements;
-
         }
     }
 }
