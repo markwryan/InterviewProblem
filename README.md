@@ -5,6 +5,8 @@ Given two character arrays as inputs, return a merged character array by taking 
 
 ## Examples
 
-Given ['a','b','c'] and ['1','2','3'] the expected result would be ['a','1','b','2','c','3']
+Given `['a','b','c']` and `['1','2','3']` the expected result would be `['a','1','b','2','c','3']`
 
-Given ['a','b','c'] and ['1','2','3','4'] the expected result would be ['a','1','b','2','c','3','4']
+Given `['a','b','c']` and `['1','2','3','4']` the expected result would be `['a','1','b','2','c','3','4']`
+
+The expected can be seen in the unit tests included.
