@@ -1,12 +1,11 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using NUnit.Framework;
 
 namespace InterviewProblem
 {
-    [TestClass]
+    [TestFixture]
     public class MergeTests
     {
-        [TestMethod]
+        [Test]
         public void MergeEqualItemsTest()
         {
             var charArray1 = new[] {'a', 'b', 'c'};
@@ -21,7 +20,7 @@ namespace InterviewProblem
             }
         }
 
-        [TestMethod]
+        [Test]
         public void MergeUnequalItemsTest()
         {
             var charArray1 = new[] {'a', 'b'};
@@ -36,7 +35,7 @@ namespace InterviewProblem
             }
         }
 
-        [TestMethod]
+        [Test]
         public void MergeLargeEqualItemsTest()
         {
             var charArray1 = new[] { 'f', '5', 'c', 'q', '9', '-', 't', '1' };
@@ -53,7 +52,7 @@ namespace InterviewProblem
             }
         }
 
-        [TestMethod]
+        [Test]
         public void MergeLargeUnequalItemsTest()
         {
             var charArray1 = new[] { 'f', '5', 'c', 'q', '9', '-', 't', '1' };
