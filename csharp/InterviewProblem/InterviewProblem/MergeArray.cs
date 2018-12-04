@@ -1,6 +1,6 @@
 ﻿namespace InterviewProblem
 {
-    public class MergeArray
+    public static class MergeArray
     {
         public static char[] Merge(char[] array1, char[] array2)
         {
