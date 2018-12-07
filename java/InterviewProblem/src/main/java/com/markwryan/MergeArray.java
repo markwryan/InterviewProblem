@@ -37,7 +37,7 @@ class MergeArray {
             zipped.add(list2.get(i));
         }
 
-        List<Character> longer = shorterLength == list1.size() ? list1 : list2;
+        List<Character> longer = shorterLength == list1.size() ? list2 : list1;
         for (int i = shorterLength; i < longer.size(); i++){
             zipped.add(longer.get(i));
         }
