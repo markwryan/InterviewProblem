@@ -6,7 +6,7 @@ namespace InterviewProblem
     public class MergeTests
     {
         [Test]
-        public void MergeEqualItemsTest()
+        public static void MergeEqualItemsTest()
         {
             var charArray1 = new[] {'a', 'b', 'c'};
             var charArray2 = new[] {'1', '2', '3'};
@@ -21,7 +21,7 @@ namespace InterviewProblem
         }
 
         [Test]
-        public void MergeUnequalItemsTest()
+        public static void MergeUnequalItemsTest()
         {
             var charArray1 = new[] {'a', 'b'};
             var charArray2 = new[] {'1', '2', '3', '4'};
@@ -36,7 +36,7 @@ namespace InterviewProblem
         }
 
         [Test]
-        public void MergeLargeEqualItemsTest()
+        public static void MergeLargeEqualItemsTest()
         {
             var charArray1 = new[] { 'f', '5', 'c', 'q', '9', '-', 't', '1' };
             var charArray2 = new[] { '4', '2', '3', '/', 'e', '8', 'v', 'x' };
@@ -53,7 +53,7 @@ namespace InterviewProblem
         }
 
         [Test]
-        public void MergeLargeUnequalItemsTest()
+        public static void MergeLargeUnequalItemsTest()
         {
             var charArray1 = new[] { 'f', '5', 'c', 'q', '9', '-', 't', '1' };
             var charArray2 = new[] { '4', '2', '3' };
