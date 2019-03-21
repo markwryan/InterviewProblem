@@ -10,7 +10,7 @@ class MergeArray {
      *
      * ['1','2','3','4'] and ['a','b','c'] => ['1','a','2','b','3','c','4']
      */
-    static char[] Merge(char[] array1, char[] array2) {
+    static char[] merge(char[] array1, char[] array2) {
         throw new NotImplementedException();
     }
 }

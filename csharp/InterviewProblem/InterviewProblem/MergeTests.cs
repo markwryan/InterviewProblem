@@ -3,7 +3,7 @@
 namespace InterviewProblem
 {
     [TestFixture]
-    public class MergeTests
+    public static class MergeTests
     {
         [Test]
         public static void MergeEqualItemsTest()

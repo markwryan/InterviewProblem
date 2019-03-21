@@ -70,5 +70,5 @@ describe("merge two length arrays together", function() {
         const array2 = [];
         const result = mergeArray.merge(array1, array2);
         expect(result).toEqual([]);
-    })
+    });
 });
