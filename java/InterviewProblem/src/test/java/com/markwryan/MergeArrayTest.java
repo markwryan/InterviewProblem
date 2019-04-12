@@ -14,7 +14,7 @@ public class MergeArrayTest {
         char[] charArray1 = {'a', 'b', 'c'};
         char[] charArray2 = {'1', '2', '3'};
         final char[] expectedResult = {'a', '1', 'b', '2', 'c', '3'};
-        char[] result = MergeArray.Merge(charArray1, charArray2);
+        char[] result = MergeArray.merge(charArray1, charArray2);
 
         assertArrayEquals(expectedResult, result);
     }
@@ -27,7 +27,7 @@ public class MergeArrayTest {
         char[] charArray1 = {'1', '2', '3'};
         char[] charArray2 = {'a', 'b', 'c'};
         final char[] expectedResult = {'1', 'a', '2', 'b', '3', 'c'};
-        char[] result = MergeArray.Merge(charArray1, charArray2);
+        char[] result = MergeArray.merge(charArray1, charArray2);
 
         assertArrayEquals(expectedResult, result);
     }
@@ -40,7 +40,7 @@ public class MergeArrayTest {
         char[] charArray1 = {'a', 'b'};
         char[] charArray2 = {'1', '2', '3','4'};
         final char[] expectedResult = {'a','1','b','2','3','4'};
-        char[] result =  MergeArray.Merge(charArray1, charArray2);
+        char[] result =  MergeArray.merge(charArray1, charArray2);
 
         assertArrayEquals(expectedResult, result);
     }
@@ -53,7 +53,7 @@ public class MergeArrayTest {
         char[] charArray1 = { 'f', '5', 'c', 'q', '9', '-', 't', '1' };
         char[] charArray2 = { '4', '2', '3', '/', 'e', '8', 'v', 'x' };
         final char[] expectedResult = {'f', '4', '5', '2', 'c', '3', 'q', '/', '9', 'e', '-', '8', 't', 'v', '1', 'x'};
-        char[] result = MergeArray.Merge(charArray1, charArray2);
+        char[] result = MergeArray.merge(charArray1, charArray2);
 
         assertArrayEquals(expectedResult, result);
     }
@@ -66,7 +66,7 @@ public class MergeArrayTest {
         char[] charArray1 = { 'f', '5', 'c', 'q', '9', '-', 't', '1' };
         char[] charArray2 = { '4', '2', '3' };
         final char[] expectedResult = {'f', '4', '5', '2', 'c', '3', 'q', '9', '-', 't', '1'};
-        char[] result = MergeArray.Merge(charArray1, charArray2);
+        char[] result = MergeArray.merge(charArray1, charArray2);
 
         assertArrayEquals(expectedResult, result);
     }
@@ -79,7 +79,7 @@ public class MergeArrayTest {
         char[] charArray1 = null;
         char[] charArray2 = { '4', '2', '3' };
         final char[] expectedResult = { '4', '2', '3' };
-        char[] result = MergeArray.Merge(charArray1, charArray2);
+        char[] result = MergeArray.merge(charArray1, charArray2);
 
         assertArrayEquals(expectedResult, result);
     }
@@ -92,7 +92,7 @@ public class MergeArrayTest {
         char[] charArray1 = null;
         char[] charArray2 = null;
         final char[] expectedResult = null;
-        char[] result = MergeArray.Merge(charArray1, charArray2);
+        char[] result = MergeArray.merge(charArray1, charArray2);
 
         assertArrayEquals(expectedResult, result);
     }
@@ -105,7 +105,7 @@ public class MergeArrayTest {
         char[] charArray1 = {};
         char[] charArray2 = { '4', '2', '3' };
         final char[] expectedResult = { '4', '2', '3' };
-        char[] result = MergeArray.Merge(charArray1, charArray2);
+        char[] result = MergeArray.merge(charArray1, charArray2);
 
         assertArrayEquals(expectedResult, result);
     }
@@ -118,7 +118,7 @@ public class MergeArrayTest {
         char[] charArray1 = {};
         char[] charArray2 = {};
         final char[] expectedResult = {};
-        char[] result = MergeArray.Merge(charArray1, charArray2);
+        char[] result = MergeArray.merge(charArray1, charArray2);
 
         assertArrayEquals(expectedResult, result);
     }
